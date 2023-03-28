@@ -1,0 +1,44 @@
+.dot {
+    margin: 0 0.938rem;
+    height: 0.3rem;
+    width: 0.3rem;
+    border-radius: 50%;
+    background-color: #c2c2c2;
+}
+
+.nb-logo-red {
+    color: red;
+    text-shadow: 0.188rem -0.125rem #ff000080;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 0.625rem;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px #80808070;
+    border-radius: 0.625rem;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #b9b7b752;
+    border-radius: 0.625rem;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #adadade3;
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.hide-scrollbar {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}

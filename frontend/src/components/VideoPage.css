@@ -1,0 +1,32 @@
+.vp-content-container {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1.25rem 0.625rem;
+}
+
+.vp-description-container {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: flex-start;
+}
+
+.vp-title-text {
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.5rem;
+    color: #ffffff;
+}
+
+.vp-duration-text {
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1rem;
+    font-size: 0.8rem;
+    color: #c2c2c2;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: center;
+}

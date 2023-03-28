@@ -1,0 +1,7 @@
+.vf-video-frame-component {
+    box-sizing: border-box;
+    border-radius: 0.313rem;
+    margin-top: 1.25rem;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+}

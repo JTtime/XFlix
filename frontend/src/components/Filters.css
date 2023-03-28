@@ -1,0 +1,44 @@
+.f-genre-filter {
+    padding: 1.2rem 0.4rem;
+    display: flex;
+    color: white;
+    align-items: center;
+    overflow-x: scroll;
+}
+
+.f-age-group-filter {
+    padding: 0.2rem 1.25rem 1rem;
+    display: flex;
+    color: white;
+    align-items: center;
+    overflow-x: scroll;
+}
+
+.f-filter-btn {
+    border-radius: 3.125rem;
+    padding: 0.3rem 0.7rem;
+    font-size: 0.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    white-space: nowrap;
+    margin: 0 0.313rem 0;
+}
+
+.f-active {
+    color: #2f2f2f;
+    background-color: white;
+    border: 1px solid white;
+}
+
+.f-not-active {
+    color: white;
+    background-color: transparent;
+    border: 1px solid rgba(128, 128, 128, 0.692);
+}
+
+select {
+    border: none;
+    outline: none;
+}

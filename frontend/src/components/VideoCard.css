@@ -1,0 +1,43 @@
+.vc-videocard-component {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1rem;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.vc-video-thumbnail {
+    width: 100%;
+    aspect-ratio: 16/9;
+    background-color: #2f2f2f;
+}
+
+.vc-video-thumbnail:hover {
+    filter: brightness(50%);
+}
+
+.vc-title {
+    color: #ffffff;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 0.9rem;
+    padding: 0.313rem 0;
+    height: 1rem;
+    margin-left: 0.625rem;
+}
+
+.vc-release {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.8rem;
+    color: #c2c2c2;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 0.625rem;
+}
